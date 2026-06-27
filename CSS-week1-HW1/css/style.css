@@ -25,12 +25,18 @@ footer {
     background-color: #f8f9fa;
 }
 
+/* Old styling commented out */
 /*
 li {
     display: inline-block;
     width: 150px;
 }
 */
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
 
 h1 {
     text-align: center;
@@ -41,18 +47,20 @@ h1 {
 p {
     line-height: 1.6;
 }
-/* Skip Link */
+
 .skip-link {
     position: absolute;
     top: -40px;
     left: 0;
+    background: yellow;
+    color: black;
+    padding: 8px;
 }
 
 .skip-link:focus {
-    top: 20px;
+    top: 10px;
 }
 
-/* Grid */
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -65,7 +73,6 @@ p {
     width: 100%;
 }
 
-/* Flex */
 .flex {
     display: flex;
     flex-wrap: wrap;
