@@ -25,18 +25,13 @@ footer {
     background-color: #f8f9fa;
 }
 
-/* Old styling commented out */
+/* Existing li styling commented out */
 /*
 li {
     display: inline-block;
     width: 150px;
 }
 */
-
-nav li{
-    display: inline-block;
-    margin-right: 20px;
-}
 
 h1 {
     text-align: center;
@@ -48,11 +43,12 @@ p {
     line-height: 1.6;
 }
 
+/* Skip Link */
 .skip-link {
     position: absolute;
     top: -40px;
     left: 0;
-    background: yellow;
+    background-color: yellow;
     color: black;
     padding: 8px;
 }
@@ -61,6 +57,7 @@ p {
     top: 10px;
 }
 
+/* Grid Layout */
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -73,6 +70,7 @@ p {
     width: 100%;
 }
 
+/* Flex Layout */
 .flex {
     display: flex;
     flex-wrap: wrap;
