@@ -8,7 +8,12 @@ header {
 }
 
 nav {
-    background-color: #e9ecef;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
 }
 
 main {
@@ -20,10 +25,12 @@ footer {
     background-color: #f8f9fa;
 }
 
+/*
 li {
     display: inline-block;
     width: 150px;
 }
+*/
 
 h1 {
     text-align: center;
@@ -33,4 +40,34 @@ h1 {
 
 p {
     line-height: 1.6;
+}
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+.skip-link:focus {
+    top: 20px;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
